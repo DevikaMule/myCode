@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff7f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #7C444F !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .navbar-brand:hover {
+    color: #F39E60;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 65vh;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/774/913/original/painted-illustration-wood-table-floor-and-beautiful-natural-green-leaf-abstract-blurred-bokeh-light-background-vector.jpg') center/cover no-repeat;
+    color: rgb(26, 24, 24);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    text-shadow: #0f0e0e;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #0f0e0e;
+  }
+  
+  /* Sections */
+  section h2 {
+    color: #7C444F;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #E16A54;
+    padding-bottom: 8px;
+  }
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 10px rgba(124, 68, 79, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 6px 15px rgba(124, 68, 79, 0.2);
+  }
+  
+  .card-title {
+    color: #9F5255;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  /* Card Image */
+  .card img {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #7C444F;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Transitions & Hover Effects */
+  a, .navbar-brand, .card, .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover .card-title {
+    color: #E16A54;
+  }
+  
+  .card:hover img {
+    filter: brightness(1.05);
+  }
+  
+  /* Utility */
+  .text-center {
+    text-align: center;
+  }
+  
